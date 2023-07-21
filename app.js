@@ -19,7 +19,6 @@ function PageTransitions(){
     //Sections Active class
     allSections.addEventListener('click', (e) => {
         const id = e.target.dataset.id;
-        console.log(id)
         if (id) {
             //remove selected from the other button
             sectBtns.forEach((btn) => {
