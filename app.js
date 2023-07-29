@@ -15,7 +15,6 @@ function PageTransitions(){
         })
     }
 
-    console.log(allSections)
     //Sections Active class
     allSections.addEventListener('click', (e) => {
         const id = e.target.dataset.id;
